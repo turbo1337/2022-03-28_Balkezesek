@@ -16,7 +16,7 @@ namespace _2022_03_28_Balkezesek
                 sportolok.Add(new sportolo(sor));
             }
 
-            Console.WriteLine($"3. feladat: ")
+            Console.WriteLine($"3. feladat: {sportolok.Count} ");
             Console.ReadKey();
         }
     }
